@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Trabajo Integrador</title>
+</head>
+<body>
+
+    <section >
+        <h2>Recetario </h2>
+        <form action="">
+            <label for="palabra">Ingrese el nombre del plato y seleccione si quiere saber su receta</label>
+            <input id="recetario"  type="text" name="palabra" >
+            
+        </form>
+
+        <button id="boton"  >receta</button>        
+
+        <div id="recuadroVerde">
+           
+        </div>
+    </section>
+
+    <section>
+        <h2>Sacando palabras</h2>
+            <p id="parrafo"></p>
+       <form action="">
+           <input type="text" id ="inpufrase">
+        
+       </form> 
+       <button id="botonejercicio4">sacar</button>
+    </section>
+
+
+    <section>
+        <h2>Sorpresa</h2>
+        <div class="tema">
+            <h3 class="sorpresa">sorpresa</h3>
+
+        </div>
+        
+    </section>    
+    <section>
+        <h2>Puntos y habilidades</h2>
+     
+         <div class="card">
+             <h3>Guerrero Medieval</h3>
+             <img src="./imagenes/guerrero.png" alt="guerrero medieval">
+             <p>Este personaje tiene la posibilidad de ser muy fuerte,y gana 50 puntos por cada punto de fuerza</p>
+             <p>Cada vez que sumamos fuerza obtenemos:<strong id="idSpan">50 puntos</strong></p>
+             <button >Sumar fuerza</button>
+            
+         </div>
+         <div class="zona2">
+             <button >Restar fuerza</button>
+             <div class="total">
+                 <p id="idTotal">TOTAL puntos adquiridos:</p>
+             </div>
+         </div>
+        
+    </section>
+
+    <div id="introduccion">
+        <h2 id="hola">Trabajo Integrador hecho por Jeremías Sebrian (Importante; leer)</h2>
+        <form action="">
+            <P>Este documento fue hecho por Jeremías Sebrian, uno de los alumnos del curso de Desarrollo Web con Javascript dado por la Universidad Tecnológica Nacional con una carga 
+                horaria de 67 horas. Nota: Sobresaliente. 02 días del mes de Junio de 2022.  <br>
+            Para aprovechar todos los programas hechos en este dodumento, se debe leer lo siguiente lo siguiente: <br>
+            - Escribir los siguientes datos, en orden, en el prompt que aparece al ingresar: Juan Perez, Prof123, Ana, Gomez, 40. <br>
+            - En el formulario "Recetario", los platos disponibles para leer sus recetas son; "ñoquis caseros", "humus" y "papas fritas" <br>
+            - En el formulario "Sacando palabras", se debe escribir una de las palabras de la oración "pablito clavo un clavito", para que el programa la reescriba omitiendo la palabra indicada 
+            por el usuario. <br>
+            - En el formulario "Sorpresa", sólo se debe pasar el mouse por la palabra "sorpresa". <br>
+            - En el formulario "Puntos y habilidades", se debe hace clic en "Sumar fuerza" o en "Resta fuerza" para modificar al Guerrero Medieval. </P>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
